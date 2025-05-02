@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Darker text for contrast */
+}
+
+#hoverBox {
+    width: 150px;
+    height: 50px;
+    background-color: #ffcccb; /* Light red background */
+    margin-top: 10px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+    border: 2px solid #ff6347; /* Tomato border */
+    border-radius: 8px; /* Rounded corners */
+    color: #fff; /* White text */
+    font-weight: bold;
+}
+
+#hoverBox:hover {
+    background-color: #ff6347; /* Tomato color on hover */
+    color: #000; /* Black text on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.tab-content {
+    display: none;
+    margin-top: 10px;
+    background-color: #e6e6fa; /* Lavender background */
+    color: #4b0082; /* Indigo text */
+    padding: 10px;
+    border: 2px solid #9370db; /* Medium purple border */
+    border-radius: 5px;
+}
+
+.tab-content.active {
+    display: block;
+    background: #dda0dd; /* Plum background */
+    color: #4b0082; /* Indigo text */
+    padding: 15px;
+    border: 2px solid #8a2be2; /* Blue violet border */
+    border-radius: 10px;
+}
+
+#passwordFeedback {
+    display: block;
+    color: #ff4500; /* Orange red text */
+    font-weight: bold;
+    font-size: 14px;
+}
